@@ -5,80 +5,161 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good morning",
+        "Good evening",
+        "What's up?",
+        "How's it going?",
+        "Howdy",
+        "Yo",
+        "Is anyone here?"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! 👋",
+        "Hey there! How can I assist you today?",
+        "Hi! I'm here to help 😊",
+        "Greetings! What brings you here today?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "Talk to you soon",
+        "I’m leaving",
+        "See ya"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Have a great day 👋",
+        "Take care! 😊",
+        "Bye! Come back anytime.",
+        "It was nice talking to you. See you soon!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated",
+        "Thanks a lot!",
+        "That's helpful",
+        "Thanks so much",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Glad I could help 😊",
+        "Any time! Let me know if you need more help.",
+        "No problem at all!"
+      ]
     },
     {
       "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "What items are available?",
+        "Show me your products",
+        "What can I buy?",
+        "Do you have coffee?",
+        "Do you have any tea?",
+        "What's on the menu?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We offer freshly brewed coffee, herbal teas, and snacks ☕🍵",
+        "Our menu includes coffee, tea, and some delicious treats!",
+        "Currently, we have a variety of coffee and tea options available."
       ]
     },
     {
       "tag": "payments",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Do you accept credit cards?",
+        "Can I pay with UPI?",
+        "Is cash accepted?",
+        "What payment methods do you support?",
+        "Can I use PayPal?",
+        "Do you accept Google Pay?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept UPI, VISA, Mastercard, Google Pay, and PayPal.",
+        "Yes, you can pay via credit/debit cards, UPI, and most digital wallets!",
+        "All major payment methods are accepted, including cash and online payments."
       ]
     },
     {
       "tag": "delivery",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How long is the delivery time?",
+        "When will my order arrive?",
+        "What’s the shipping duration?",
+        "Do you offer fast delivery?",
+        "Can I get same-day delivery?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Delivery typically takes 2–4 business days 🚚",
+        "Standard shipping takes 2–4 days. Express options are available too!",
+        "We try to get your order to you within 48 hours whenever possible!"
       ]
     },
     {
       "tag": "funny",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Tell me a joke",
+        "I want to laugh",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Say something funny"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Why don’t skeletons fight each other? They don’t have the guts.",
+        "Why did the coffee file a police report? It got mugged!",
+        "I would tell you a construction joke, but I’m still working on it 🛠️",
+        "Why can’t your nose be 12 inches long? Because then it would be a foot!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When do you open?",
+        "Are you open on weekends?",
+        "Tell me your business hours",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We’re open from 9 AM to 9 PM, Monday through Saturday!",
+        "Our working hours are 9:00–21:00, Monday to Saturday. Closed on Sundays.",
+        "You can visit us anytime between 9 AM and 9 PM!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "How can I find your shop?",
+        "Share your location",
+        "Where’s your café?"
+      ],
+      "responses": [
+        "We’re located at Banjara Hills, Hyderabad 📍",
+        "You can find us on Google Maps under ‘Sam's Coffee Corner’.",
+        "We’re in Banjara Hills — easily accessible and with parking too!"
+      ]
+    },
+    {
+      "tag": "documentation",
+      "patterns": ["Where can I find the docs?", "Docs", "documentation"],
+      "responses": [
+        "Sure! You can find the documentation here: <a href=' target='_blank'>Documentation</a>"
       ]
     }
+    
+
+
   ]
 }
